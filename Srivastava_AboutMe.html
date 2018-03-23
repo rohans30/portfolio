@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<title>About Me</title>
+</head>
+<body>
+	<header class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h1 class="col-sm-4">Rohan Srivastava</h1>
+			</div>
+			<div class="pull-right">
+				<ul class="nav nav-pills">
+					<li>
+						<a href="Srivastava_Home.html">All</a>
+					</li>
+					<li class="active">
+						<a href="Srivastava_AboutMe.html">About Me</a>
+					</li>
+					<li>
+						<a href="Srivastava_Resume.html">Resume</a>
+					</li>
+					<li>
+						<a href="Srivastava_Projects.html">Projects</a>
+					</li>
+					<li>
+						<a href="Srivastava_ContactMe.html">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<style>
+		* {
+			font-family: "Lato";
+		}
+
+		.bg-parallax {
+			padding-top: 150px;
+			padding-bottom: 150px;
+			background-image: url("https://preview.c9users.io/rohansri/cse1-srivastava-r/HTML Project/Images/sebastien-gabriel-232361.jpg");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+
+		.home-img {
+			border: none!important;
+		}
+
+		.img-container {
+			position: relative;
+			width: 33%;
+		}
+
+		.image {
+			display: block;
+			width: 100%;
+			/*height: 100%;*/
+		}
+
+		.overlay {
+			position: absolute;
+			/*bottom: 0;*/
+			/*left: 0;*/
+			/*right: 0;*/
+			background-color: #008CBA;
+			overflow: hidden;
+			width: 0;
+			height: 100%;
+			transition: .5s ease;
+						filter: opacity(90%);
+
+		}
+
+		.img-container:hover .overlay {
+			width: 93%;
+		}
+
+		.text {
+			
+			white-space: nowrap;
+			color: white;
+			font-size: 20px;
+			position: absolute;
+			overflow: hidden;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+		}
+		.aboutme {
+			font-size:20px;
+			color: black;
+		}
+
+	</style>
+		<section class="main col-md-12 bg-parallax">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 row" style="padding-bottom: 20px">
+					<h1 style="color: black; font-weight: 700; padding-left: 15px; font-family: Lato">
+					About Me
+					</h1>
+				</div>
+		<div class="pull-left img-container img-square col-md-4">
+			<a href="Srivastava_Home.html"><img class="col-md-12" style="padding: 0" src="Images/IMG_4041_sRGB.JPG"></a>
+			<div class="overlay">
+				<div class="text">More Pictures Here</div>
+			</div>
+		</div>
+		<p class="aboutme"> <b>Hi!I'm Rohan, and my goal is to pursue a career in both science and engineering,
+		a field that interests both my passions simultaneously. To achieve this, I am taking many science
+		and engineering courses at Dublin High. I happen to enjoy these two subjects the most as they're
+		both extremely interesting and actually apply to the real world today, and might help me in the
+		future.<br>
+		As an individual, my personality is one of the highlights of my character. I am very hard-working 
+		and persistent. I am friendly and cooperative, while also being intillegent and providing useful
+		information to my peers. From high school, I have learned that if I set my mind to something and 
+		give it all, I can achieve almost anything with a lot of determination. When my grades start dropping, 
+		I need to work hard to bring them back up, but most of the time I succeed and bring them up accordingly.
+		An activity that I'm in that demonstrates my skills, is robotics. I'm on the Dubln High robotics team 
+		and I work efficently with my team to produce an end result that we have in our mind. I've also joined
+		many clubs in where I participate in community service voluntarily, and it shows that I am determined
+		and caring and like to help others. I am also the treasurer of our club at Dublin High called, 
+		Computer Science Association. It shows that I am capable of leading and handling a large amount
+		of work alone, or even with others.<br>
+		All in all, the main point I'm trying to get across is that I can work efficently with others, 
+		and can handle a large load of work alone, and still get through it with some grit and determination. 
+		Thank you for visiting my site, and thanks for your time reading my portfolio. Check out the other tabs
+		on my portfolio now for my Resume, Projects, or Contact Information</b></p>
+	</section>
+	<footer class="container">
+		<div class="row">
+			<div class="col-xs-8">
+				<div class="col-xs-2">
+					<a class="thumbnail" href='mailto:srivastava6804@mydusd.org'><img src="Images/Graphicloads-100-Flat-2-Email.ico"></a>
+				</div>
+				<div class="col-xs-2">
+					<a class="thumbnail" href="#"><img src="Images/linkedin.png"></a>
+				</div>
+			</div>
+			<div class="pull-right">
+				<p>Dublin High School</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
